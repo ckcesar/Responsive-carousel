@@ -13,7 +13,7 @@
     
     <div class="galeria_rede" >
    
-        <h2>Tamanho da imagem a ser cadastrada é 878 x 469.</h2>
+        <h2>Tamanho da imagem a ser cadastrada é 878 x 469....</h2>
         
             <div class="custom-container widget">
                 <div class="mid">
