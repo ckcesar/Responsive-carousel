@@ -1,0 +1,426 @@
+
+.galeria_rede{
+    max-width: 990px;
+    border: 1px solid;
+    margin: 0 auto;
+}
+
+.mid {
+    max-width: 917px;
+    /*height: 490px;*/
+    border: 1px solid #ccc;
+    margin: 0 auto;
+}
+
+.carousel{
+    max-width: 869px;
+    height: 113px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 0 39px;
+}
+
+.clear{
+    clear: both;
+}
+
+.titulo_galeria{
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    max-width: 909px;
+    height: 50px;
+}
+
+.ul_galeria{
+    /*left: -450px;*/
+    position: absolute;
+}
+
+.li_imagens{
+    border: 1px solid #ccc;
+    width: 212px;
+    height: 113px;
+    margin: 0px 6px;
+    cursor: pointer;
+}
+
+    .img_galeria{
+        width: 100%;
+    }
+
+    /* Styling for text based carousel content. Only width and height are mandatory */
+    .carousel>ul>li>p {
+        width: 130px;
+        height: 98px;
+
+        margin: 10px 10px 10px 0;
+        border: 1px solid #808080;
+        border-radius: 5px;
+        line-height: normal;
+        background-color: #fff;
+        padding: 10px;
+    }
+
+
+a.prev, a.next, a.go {
+    display: block;
+    width: 26px;
+    height: 30px;
+    line-height: 1;
+
+    background-color: #333333;
+    color: ghostwhite;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+
+    border-radius: 8px;
+    float: left;
+}
+    a.prev.disabled, a.next.disabled,
+    a.prev.disabled:hover, a.next.disabled:hover {
+        background-color: #8d8d8d;
+        cursor: default;
+    }
+    a.go.highlight {
+        background-color: #dedede;
+        color: #000;
+    }
+    a.prev {
+        margin: 66px -5px 0px 1.4%;
+        text-indent: 7px;
+        
+    }
+    a.next {
+        margin: -88px 0px 0px 96%;
+        text-indent: 10px;
+        
+    }
+        a.prev:hover, #jcl-demo a.next:hover, a.go:hover {
+            background-color: #666666;
+        }
+
+.externalControl button,
+.imageSliderExt button {
+    margin: 5px 5px 0 0;
+}
+.externalControl a.next, .externalControl a.prev, .externalControl a.go,
+.imageSliderExt a.next, .imageSliderExt a.prev, .imageSliderExt a.go
+{
+    margin: 0 5px 0 0;
+    padding: 7px 5px 0 5px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.imagem_grande{
+    width: 100%;
+    cursor: pointer;
+}
+
+.vertical {
+    margin-left: 170px;
+}
+
+.imageSlider .carousel>ul>li>img,
+.imageSliderExt .carousel>ul>li>img {
+    width: 400px;
+    height: 300px;
+}
+.imageSlider .carousel>ul>li>p,
+.imageSliderExt .carousel>ul>li>p {
+    width: 380px;
+    height: 280px;
+}
+
+
+.clear {
+    clear: both;
+}
+
+@media screen and (max-width: 768px){
+    a.prev {
+        margin: 66px -5px 0px 2.4%;
+    }
+    a.next {
+        margin: -88px 0px 0px 95%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    
+    .carousel{
+       width: 71%;
+       margin: 0 11%; 
+    }
+    
+    a.prev {
+        margin: 66px -5px 0px 7.4%;
+    }
+    a.next {
+        margin: -88px 0px 0px 89%;
+    }
+}
+
+@media screen and (max-width: 480px){
+    
+    .carousel{
+        width: 40%;
+        margin: 0 25%;
+    }
+    
+    a.prev {
+        margin: 66px -5px 0px 19.4%;
+    }
+    a.next {
+        margin: -88px 0px 0px 74%;
+    }
+}
+
+@media screen and (max-width: 360px){
+    
+    .carousel{
+        width: 54%;
+        margin: 0 16%;
+    }
+    
+    a.prev {
+        margin: 66px -5px 0px 8.4%;
+    }
+    a.next {
+        margin: -88px 0px 0px 82%;
+    }
+}
+
+@media screen and (max-width: 320px){
+    
+    .carousel{
+        width: 61%;
+        margin: 0 11%;
+    }
+    
+    a.prev {
+        margin: 66px -5px 0px 1.4%;
+    }
+    a.next {
+        margin: -88px 0px 0px 87%;
+    }
+}
+
+/*
+@media screen and (max-width: 1382px){
+    
+    a.next{
+        margin: -90px 0px 0px 97.3%;
+    }
+    
+    .carousel{
+        width: 869px;
+    }
+    
+}
+
+@media screen and (max-width: 992px){
+    
+    .galeria_rede{
+        width: 977px;
+    }
+    
+    .carousel{
+        width: 869px;
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    
+    .galeria_rede{
+        width: 740px;
+    }
+    
+    .mid{
+        width: 736px;
+        height: 393px;
+    }
+    
+    .carousel{
+        width: 644px;
+        margin: 0 30px; 
+    }
+    
+    a.next{
+        margin: -90px 0px 0px 96.3%;
+    }
+    
+    .titulo_galeria{
+       width: 736px;
+    }
+    
+}
+
+@media screen and (max-width: 767px){
+    
+    .galeria_rede{
+        width: 740px;
+    }
+    
+    .mid{
+        width: 736px;
+        height: 393px;
+    }
+    
+    .carousel{
+        width: 644px;
+        margin: 0 30px; 
+    }
+    
+    a.next{
+        margin: -90px 0px 0px 96.3%;
+    }
+    
+    .titulo_galeria{
+       width: 736px;
+    }
+    
+}
+
+@media screen and (max-width: 600px){
+    
+    .galeria_rede{
+        width: 577px;
+    }
+    
+    .mid{
+        width: 576px;
+        height: 307px;
+    }
+    
+    .carousel{
+        width: 439px;
+        margin: 0 47px;
+    }
+    
+    a.next{
+        margin: -90px 0px 0px 95.3%;
+    }
+    
+    .titulo_galeria{
+       width: 574px;
+    }
+    
+    .li_imagens{
+        width: 223px;
+    }
+    
+    .ul_galeria{
+        left: -695px;
+        position: absolute;
+    }
+    
+}
+
+@media screen and (max-width: 480px){
+    
+    .galeria_rede{
+        width: 450px;
+    }
+    
+    .mid{
+        width: 450px;
+        height: 240px;
+    }
+    
+    .carousel{
+        width: 201px;
+        margin: 0 102px;
+    }
+    
+    a.next{
+        margin: -90px 0px 0px 92.6%;
+    }
+    
+    .titulo_galeria{
+       width: 445px;
+    }
+    
+    .li_imagens{
+        width: 223px;
+    }
+    
+    .ul_galeria{
+        left: -706px;
+        position: absolute;
+    }
+    
+}
+
+@media screen and (max-width: 360px){
+    
+    .galeria_rede{
+        width: 327px;
+    }
+    
+    .mid{
+        width: 327px;
+        height: 175px;
+    }
+    
+    .carousel{
+        width: 201px;
+        margin: 0 42px;
+    }
+    
+    a.next{
+        margin: -90px 0px 0px 92.6%;
+    }
+    
+    .titulo_galeria{
+       width: 327px;
+    }
+    
+    .li_imagens{
+        width: 223px;
+    }
+    
+    .ul_galeria{
+        left: -706px;
+        position: absolute;
+    }
+    
+}
+
+@media screen and (max-width: 320px){
+    
+    .galeria_rede{
+        width: 299px;
+    }
+    
+    .mid{
+        width: 295px;
+        height: 158px;
+    }
+    
+    .carousel{
+        width: 200px;
+        margin: 0 30px;
+    }
+    
+    a.next{
+        margin: -90px 0px 0px 92.6%;
+    }
+    
+    .titulo_galeria{
+       width: 299px;
+    }
+    
+    .li_imagens{
+        width: 223px;
+    }
+    
+    .ul_galeria{
+        left: -706px;
+        position: absolute;
+    }
+    
+}*/
