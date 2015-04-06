@@ -12,7 +12,7 @@
 <body>
     
     <div class="galeria_rede" >
-   
+        <!-- Vou adicionar um comentário aqui com o Nome do Cesar Augusto :) -->
         <h2>Tamanho da imagem a ser cadastrada é 878 x 469....</h2>
         
             <div class="custom-container widget">
